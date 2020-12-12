@@ -2,11 +2,11 @@
 
 buildscript {
     repositories {
-        google()
+       google()
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.2.1'
+        classpath 'com.android.tools.build:gradle:4.1.1'
         //https://developer.android.com/studio/releases/gradle-plugin
     }
 
@@ -17,6 +17,6 @@ buildscript {
 allprojects {
     repositories {
         jcenter()
-        google()
+       google()
     }
 }
